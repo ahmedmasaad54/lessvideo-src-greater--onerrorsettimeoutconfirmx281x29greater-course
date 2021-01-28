@@ -1,0 +1,16 @@
+title: <video src=">" onerror=setTimeout`confirm\x281\x29`>
+description: <video src=">" onerror=setTimeout`confirm\x281\x29`>
+template:
+  repo: lessvideo-src"greater"-onerrorsettimeoutconfirmx281x29greater-template
+  name: lessvideo-src"greater"-onerrorsettimeoutconfirmx281x29greater
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
